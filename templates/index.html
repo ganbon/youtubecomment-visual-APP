@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <title>Youtubeコメント解析</title>
+        <meta charset="utf-8"/>
+        <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static',filename='css/style.css') }}"
+    />
+    </head>
+    <body>
+        <h1>Youtubeコメント解析</h1>
+        <form action="/create" method="post">
+        <table id="indextable">
+            <tr>
+            <td><input type="submit" class = "button" name="create" value="Word Cloud作成"></td>
+        </form>
+        <form action="/display" method="post">
+            <td><input type="submit" class = "button" name="display" value="一覧表示"></td>
+        </form>
+    </tr>
+</table>
+    </body>
+</html>

@@ -1,0 +1,101 @@
+img{
+    width: 70%;
+    height: 70%;
+}
+
+.youtube_url{
+    vertical-align: top; 
+}
+body{
+    background-color: #F0FFFF;
+}
+h1{
+    text-align: center;
+    color: #d3a2ae;
+    padding: 30px;
+}
+h2 {
+    text-align: center;
+    color: #aecdba;
+}
+h3 {
+    text-align: center;
+    color: #e4e3b3;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+li{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+}
+.list {
+    display: table;
+	margin: auto;
+}
+.list li{
+    display: table-cell;
+}
+.button{
+    color:rgb(151, 216, 232);
+    background-color: rgb(251, 249, 226);
+    display       : inline-block;
+    border-radius: 30px 30px 30px 30px;      /* 角丸 */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;
+    line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #ededef;
+}
+#indextable{
+    margin-left: auto;
+    margin-right: auto;
+    border:30px;
+    }
+a{
+    text-decoration: none;
+}
+#create_label{
+    color: #010a045f;
+    font-size: 20px;
+}
+#url{
+    position: relative;
+  display: block;
+  width: 500px;
+  border: 2px solid rgb(139, 170, 182);
+  /* margin-top: 50px; */
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #504e4e;
+  outline: none;
+}
+#send{
+    color:rgb(208, 148, 120);
+    background-color: rgb(226, 232, 211);
+    display       : inline-block;
+    border-radius: 30px 30px 30px 30px;      /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;
+    line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  border        : 2px solid #ededef;
+}
+#createtable{
+    margin-right: auto;
+}
+
+#scrollbtn{
+    right:0;
+    background: transparent;
+    border: 2px solid #777781;
+    font-size : 15pt;
+    position: fixed; 
+}
